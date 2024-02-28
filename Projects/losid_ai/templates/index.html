@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Search and Summarization</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Google Search and Summarization</h1>
+        <form action="/search" method="post">
+            <input type="text" name="query" placeholder="Enter your query">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</body>
+</html>
